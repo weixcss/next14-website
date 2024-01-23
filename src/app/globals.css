@@ -28,7 +28,7 @@ a {
 
 }
 
-/*navbar container*/
+/*navbar container - contains logo and links div*/ 
 .container {
   width: 1536px; /*width of navbar container*/
   margin: auto;
