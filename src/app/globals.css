@@ -1,0 +1,46 @@
+/*this applies to all the pages*/
+
+/*variables*/
+:root {
+  --bg: #0d0c22;
+  --bgSoft: #2d2b42;
+  --text: white;
+  --textSoft: #e5e5e5;
+  --btn: #3673fd;
+}
+
+/*universal selector*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text); 
+}
+
+/*for all links*/
+a {
+  text-decoration: none; 
+  color: inherit; /*inherits from the parent*/
+
+}
+
+/*navbar container*/
+.container {
+  width: 1536px; /*width of navbar container*/
+  margin: auto;
+
+  /*padding for text between navbar container and text*/
+  padding-left: 50px;
+  padding-right: 50px;
+
+  min-height: 100vh; /*makes the height of the container 100%*/
+
+  /*layout for the children or text in the container*/
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
