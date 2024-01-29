@@ -47,7 +47,7 @@ const Links = () => {
       </div>
 
       {/*when menu button/image is clicked, mobile tab with links will open*/}
-      <button onClick={() => setOpen((prev) => !prev)}>Menu</button> {/*on click set state to !currentstate*/}
+      <button className={styles.menuButton} onClick={() => setOpen((prev) => !prev)}>Menu</button> {/*on click set state to !currentstate*/}
       {open && (
         <div className={styles.mobileLinks}>
           {links.map((link) => ( 
