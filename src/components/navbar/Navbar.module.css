@@ -1,0 +1,13 @@
+.container {
+  height: 100px;
+  display: flex; /*makes the children of the container flex, items becomes horizontal*/
+  align-items: center; /*centers the items vertically in the center of the navbar container*/
+  justify-content: space-between; /*makes the items in the container space between each other, logo and links div*/
+}
+
+.logo {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 50px;
+}
