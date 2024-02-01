@@ -1,3 +1,21 @@
 .container {
-  
+  display: flex; /* horizontal */
+  gap: 100px;
 }
+
+.textContainer {
+  flex:1;
+}
+
+.rightImg {
+  flex:1;
+  position: relative;
+}
+
+.brandsImg { 
+  position: relative;
+  width: 500px;
+  height: 50px;
+  filter: grayscale(100%);
+}
+
