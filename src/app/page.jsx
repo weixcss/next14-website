@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
-        <h1>Full Stack Software Engineer</h1>
-        <p>
+        <h1 className={styles.title}>Full Stack Software Engineer</h1>
+        <p className={styles.description}>
           Hi, I'm a full stack software engineer with a passion for creating and building things. 
           I have experience in building web applications, mobile applications, and backend services. 
           I'm always looking for new opportunities to learn and grow as a developer.
