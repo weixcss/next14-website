@@ -5,7 +5,7 @@ import styles from "./Navbar.module.css";
 const Navbar = () => {
   return (
     <div className={styles.container}>
-      <Link href="/" className={styles.logo}>Logo</Link> {/* Makes the logo clickable, redirect to homepage*/}
+      <Link href="/" className={styles.logo}>Wei Zhu</Link> {/* Makes the logo clickable, redirect to homepage*/}
       <div>
         <Links />
       </div>
